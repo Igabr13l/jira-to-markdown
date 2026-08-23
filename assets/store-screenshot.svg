@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#efe8d8"/>
+      <stop offset="1" stop-color="#cce5d3"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-opacity=".2"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <circle cx="1130" cy="85" r="180" fill="#d8a942" opacity=".26"/>
+  <text x="100" y="160" fill="#6e5741" font-family="monospace" font-size="17" font-weight="700" letter-spacing="3">LOCAL JIRA CLOUD CONVERTER</text>
+  <text x="100" y="225" fill="#15221c" font-family="Georgia,serif" font-size="58" font-weight="700">From ticket to clean</text>
+  <text x="100" y="290" fill="#174f3c" font-family="Georgia,serif" font-size="58" font-style="italic">Markdown in one click.</text>
+  <text x="103" y="350" fill="#655b4e" font-family="Georgia,serif" font-size="22">Review, edit, and copy. Nothing leaves your browser.</text>
+
+  <g transform="translate(710 80)" filter="url(#shadow)">
+    <rect width="450" height="640" rx="8" fill="#f4f0e6"/>
+    <rect x="24" y="25" width="48" height="48" rx="5" fill="#174f3c"/>
+    <text x="33" y="56" fill="#f8f4e9" font-family="monospace" font-size="18" font-weight="700">M↓</text>
+    <text x="88" y="40" fill="#6e5741" font-family="monospace" font-size="10" font-weight="700" letter-spacing="2">LOCAL CONVERTER</text>
+    <text x="88" y="64" fill="#15221c" font-family="Georgia,serif" font-size="23" font-weight="700">Ticket to Markdown</text>
+    <line x1="24" x2="426" y1="89" y2="89" stroke="#b9b4a8"/>
+    <rect x="24" y="109" width="402" height="40" fill="#ffffff" opacity=".45"/>
+    <rect x="24" y="109" width="3" height="40" fill="#23805d"/>
+    <text x="37" y="134" fill="#174f3c" font-family="monospace" font-size="12">PAY-12 is ready to review.</text>
+    <text x="24" y="177" fill="#15221c" font-family="Georgia,serif" font-size="14" font-weight="700">Preview and edit</text>
+    <rect x="24" y="190" width="402" height="300" rx="4" fill="#fffdf7" stroke="#8b857a"/>
+    <g fill="#26362f" font-family="monospace" font-size="12">
+      <text x="41" y="220" font-weight="700"># PAY-12: Repair checkout</text>
+      <text x="41" y="251">**Jira:** acme.atlassian.net/browse/PAY-12</text>
+      <text x="41" y="294" font-weight="700">## Description</text>
+      <text x="41" y="321">Customers can submit checkout twice.</text>
+      <text x="41" y="364" font-weight="700">## Acceptance criteria</text>
+      <text x="41" y="391">- Only one invoice is created.</text>
+      <text x="41" y="416">- The customer sees one confirmation.</text>
+    </g>
+    <text x="24" y="522" fill="#655b4e" font-family="monospace" font-size="11">Character limit   12000</text>
+    <text x="426" y="522" fill="#655b4e" font-family="monospace" font-size="11" text-anchor="end">281 characters</text>
+    <rect x="24" y="544" width="402" height="50" rx="4" fill="#174f3c"/>
+    <rect x="28" y="590" width="398" height="4" fill="#d8a942"/>
+    <text x="225" y="575" fill="white" font-family="monospace" font-size="13" font-weight="700" text-anchor="middle">Copy Markdown</text>
+    <text x="225" y="618" fill="#74695b" font-family="Georgia,serif" font-size="10" text-anchor="middle">Nothing leaves this browser.</text>
+  </g>
+</svg>

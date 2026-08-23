@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jira Ticket to Markdown</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="mark" aria-hidden="true">M↓</div>
+        <div>
+          <p class="eyebrow">LOCAL CONVERTER</p>
+          <h1>Ticket to Markdown</h1>
+        </div>
+      </header>
+
+      <p id="status" role="status" data-kind="working">Reading this tab...</p>
+
+      <label class="editor-label" for="markdown">Preview and edit</label>
+      <textarea
+        id="markdown"
+        spellcheck="false"
+        placeholder="Your Jira ticket will appear here."
+      ></textarea>
+
+      <div class="controls">
+        <label for="limit">Character limit</label>
+        <input
+          id="limit"
+          type="number"
+          min="500"
+          max="100000"
+          step="500"
+          value="12000"
+        />
+        <span id="count">0 characters</span>
+      </div>
+
+      <button id="copy" type="button" disabled>Copy Markdown</button>
+      <p class="privacy">
+        Nothing leaves this browser. Review confidential content before pasting
+        it elsewhere.
+      </p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

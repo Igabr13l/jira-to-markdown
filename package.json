@@ -1,0 +1,32 @@
+{
+  "name": "jira-to-markdown",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Chrome extension that turns the open Jira Cloud issue into clean Markdown.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm test && npm run package",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "oxlint src tests scripts",
+    "package": "npm run build && node scripts/package.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/chrome": "latest",
+    "@types/node": "latest",
+    "esbuild": "latest",
+    "fflate": "latest",
+    "linkedom": "latest",
+    "oxlint": "latest",
+    "prettier": "latest",
+    "sharp": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
