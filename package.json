@@ -1,6 +1,6 @@
 {
   "name": "jira-to-markdown",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "type": "module",
   "description": "Local Chrome extension that turns the open Jira Cloud issue into clean Markdown.",

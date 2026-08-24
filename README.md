@@ -4,7 +4,7 @@ A local Chrome extension for developers who want to turn the open Jira Cloud tic
 
 ## Status
 
-Free beta, version 0.1.0. The extension is packaged for manual testing and Chrome Web Store submission but is not yet listed.
+Free beta, version 0.1.1. Version 0.1.0 is published in the Chrome Web Store; this version stabilizes the popup size for the next update.
 
 ## MVP
 
@@ -50,7 +50,7 @@ npm run package
 
 ## Publishing
 
-Use the copy and asset paths in [`docs/store-listing.md`](docs/store-listing.md), then upload `release/jira-ticket-to-markdown-0.1.0.zip` through the Chrome Web Store Developer Dashboard. The public privacy policy is hosted at <https://igabr13l.github.io/jira-to-markdown/>.
+Use the copy and asset paths in [`docs/store-listing.md`](docs/store-listing.md), then upload the versioned ZIP from `release/` through the Chrome Web Store Developer Dashboard. The public privacy policy is hosted at <https://igabr13l.github.io/jira-to-markdown/>.
 
 ## Privacy
 

@@ -51,4 +51,4 @@ Convert the Jira Cloud ticket in the user-activated tab into editable Markdown a
 - Privacy URL: `https://igabr13l.github.io/jira-to-markdown/`
 - Screenshot: `store-assets/screenshot-1280x800.png`
 - Store icon: `dist/icons/icon-128.png`
-- Upload package: `release/jira-ticket-to-markdown-0.1.0.zip`
+- Upload package: `release/jira-ticket-to-markdown-0.1.1.zip`
